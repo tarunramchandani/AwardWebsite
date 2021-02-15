@@ -1,0 +1,25 @@
+extends base.pug 
+block style
+    style
+        include ../static/first.css
+
+            
+block content
+    <div id="container">
+        <form action="/contact" method="post">
+             <div>Name:&nbsp;<input type="text" name="name" id="nam">
+             </div>
+             <div>Phone:&nbsp;<input type="phone" name="phone" id="phn">
+             </div>
+             <div>E-mail:&nbsp;<input type="email" name="email" id="mail">
+             </div>
+             <div>Age:&nbsp;<input type="number" name="age" id="ag">
+             </div>
+             <div>Country:&nbsp;<input type="text" name="country" id="cou">
+             </div>
+             <div><textarea type="text"name="tell" id="txt" placeholder="Tell Us Here"></textarea>
+             </div>
+             <button>Submit Now</button>
+        </form>
+    </div>
+    <footer id="fc"> &copy;2021 | All rights Reserved</footer>
