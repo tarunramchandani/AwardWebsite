@@ -460,7 +460,7 @@ width: 601px;
 }
 #homeb::before{
     content: "";
-    background: url(../static/home.jpg) no-repeat center center/cover;
+    background: url(../static/images/home.jpg) no-repeat center center/cover;
     position: absolute;
     height: 58vh;
     width: 98.70vw;
@@ -469,7 +469,7 @@ width: 601px;
 }
 #award::before{
     content: "";
-    background: url(../static/awardb.jpg) no-repeat center center/cover;
+    background: url(../static/images/awardb.jpg) no-repeat center center/cover;
     position: absolute;
     height: 253vh;
     width: 98.70vw;
