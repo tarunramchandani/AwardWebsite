@@ -23,7 +23,7 @@ app.use(express.urlencoded());
 app.use('/static',express.static('static'));
 app.set('view engine','pug');
 app.set('views',path.join(__dirname,'views'));
-app.get('/home',(req,res)=>res.status(200).render('first'));
+app.get('/home',(req,res)=>res.status(200).render('index'));
 app.get('/award',(req,res)=>res.status(200).render('award'));
 app.get('/news',(req,res)=>res.status(200).render('news'));
 app.get('/contact',(req,res)=>res.status(200).render('contact'));
